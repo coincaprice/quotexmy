@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "muc_gXNoVnGjB1jrsx1iE"
+uri = "file://quotex-project.zip"
+type = "unspecified"
+title = "quotex-project.zip"
+
+[[outputs]]
+id = "YELzpKmfm8QqkpJvlKUoI"
+uri = "file://quotex-project.tar.gz"
+type = "unspecified"
+title = "quotex-project.tar.gz"

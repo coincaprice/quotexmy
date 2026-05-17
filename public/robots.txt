@@ -1,0 +1,57 @@
+# Quotex Trading Platform - Robots.txt
+# Website: https://quotex.my
+# Updated: November 3, 2025
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow crawling of legal pages (privacy & terms)
+Disallow: /privacy-policy
+Disallow: /service-agreement
+
+# Disallow crawling of admin/backend paths
+Disallow: /api/
+Disallow: /admin/
+
+# Allow crawling of important assets
+Allow: /images/
+Allow: /icons/
+Allow: /img/
+
+# Sitemap location
+Sitemap: https://quotex.my/sitemap.xml
+
+# Common bot-specific rules
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Block known bad bots (prevents scraping/spam)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
